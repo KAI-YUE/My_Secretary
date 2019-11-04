@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReminderActivity">
+
+    <EditText
+        android:id="@+id/textEdit_Title"
+        style="@style/reminder_edittext"
+        android:layout_marginTop="48dp"
+        android:hint="@string/reminder_title_text"
+        app:layout_constraintHorizontal_bias="0.714"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_Date"
+        style="@style/reminder_button"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="30dp"
+        android:onClick="showCalendar"
+        android:text="@string/reminder_date"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textEdit_Title" />
+
+    <EditText
+        android:id="@+id/textEdit_Date"
+        style="@style/reminder_edittext"
+        android:layout_marginTop="30dp"
+        android:hint="@string/reminder_date_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.278"
+        app:layout_constraintStart_toEndOf="@id/button_Date"
+        app:layout_constraintTop_toBottomOf="@id/textEdit_Title" />
+
+    <Button
+        android:id="@+id/button_Time"
+        style="@style/reminder_button"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="32dp"
+        android:onClick="showClock"
+        android:text="Time"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_Date" />
+
+    <EditText
+        android:id="@+id/textEdit_Time"
+        style="@style/reminder_edittext"
+        android:layout_marginTop="24dp"
+        android:hint="@string/reminder_time_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.359"
+        app:layout_constraintStart_toEndOf="@id/button_Time"
+        app:layout_constraintTop_toBottomOf="@id/textEdit_Date" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="342dp"
+        android:layout_height="311dp"
+        android:layout_marginBottom="108dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="24dp"
+        android:clickable="true"
+        android:color="@color/fb_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/add_reminder" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

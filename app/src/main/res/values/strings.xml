@@ -3,4 +3,14 @@
     <string name="main_greetings">Hello, can I help you?</string>
     <string name="main_reminder_request">Please set a reminder for me.</string>
     <string name="main_weather_request">How is the weather like?</string>
+
+    <!-- Calendar Fragment -->
+    <string name="calendar">calendar</string>
+    <string name="reminder_date">Date</string>
+    <string name="reminder_date_text">mm/dd/yyyy</string>
+    <string name="reminder_time_text">hh:mm</string>
+
+    <!-- Clock Fragment -->
+    <string name="clock">clock</string>
+    <string name="reminder_title_text">Type a title or leave it blank.</string>
 </resources>
