@@ -13,4 +13,7 @@
     <!-- Clock Fragment -->
     <string name="clock">clock</string>
     <string name="reminder_title_text">Type a title or leave it blank.</string>
+    <string name="reminder_default_title">No Title</string>
+    <string name="reminder_default_date">mm/dd/yyyy</string>
+    <string name="reminder_default_time">hh:mm</string>
 </resources>
