@@ -42,6 +42,6 @@
         android:layout_gravity="right"
         android:layout_margin="20dp"
         app:srcCompat="@drawable/alarm_reminder"
-        android:outlineSpotShadowColor="@color/colorPrimaryDark"/>
+        android:outlineSpotShadowColor="@color/colorPrimaryDark" />
 
 </androidx.cardview.widget.CardView>

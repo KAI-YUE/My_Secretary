@@ -51,6 +51,7 @@ public class ReminderActivity extends AppCompatActivity {
     private static final String PRIMARY_CHANNEL_ID =
             "primary_notification_channel";
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

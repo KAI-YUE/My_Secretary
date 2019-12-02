@@ -55,7 +55,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.359"
         app:layout_constraintStart_toEndOf="@id/button_Time"
-        app:layout_constraintTop_toBottomOf="@id/textEdit_Date" />
+        app:layout_constraintTop_toBottomOf="@id/textEdit_Date"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/reminder_recycleView"

@@ -12,8 +12,7 @@ public class AlarmReceiver extends BroadcastReceiver {
 
     private NotificationManager mNotificationManager;
     private int NOTIFICATION_ID = 0;
-    private static final String PRIMARY_CHANNEL_ID =
-            "primary_notification_channel";
+    private static final String PRIMARY_CHANNEL_ID = "primary_notification_channel";
     private static final String REMINDER_TITLE =
             "reminder_title";
 
